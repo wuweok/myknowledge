@@ -1,0 +1,37 @@
+Reference：  
+https://docs.laravel-excel.com/3.1/exports/collection.html
+https://www.php.cn/faq/545031.html
+https://blog.csdn.net/gary0309/article/details/132044209
+
+1. install 
+composer require maatwebsite/excel:^3.1
+
+2. export 
+2.1 php artisan make:export UsersExport  --model=User
+
+
+3. Import
+
+ php artisan make:import IndicatorsImport --model=Indicator
+
+
+ 4. please collection to convert each column to collection.
+
+ namespace App\Imports;
+
+use App\User;
+use Illuminate\Support\Collection;
+use Maatwebsite\Excel\Concerns\ToCollection;
+
+class UsersImport implements ToCollection
+{
+    public function collection(Collection $rows)
+    {
+        foreach ($rows as $row) 
+        {
+            User::create([
+                'name' => $row[0],
+            ]);
+        }
+    }
+}
