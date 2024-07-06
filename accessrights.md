@@ -38,3 +38,26 @@ nQ8ERQHWr4zXYI/wuie+9K6bC5wUHE2qk5mlDPBbW1S49pIIvD77QRM9NK54mJiD5EFbWK+Cr6YhkTnS
 ## gitee personal project
 - Accout: wuweok  or  wuweigang163@163.com
 - PSW: company default
+
+
+# My server
+## aliyun
+- account: wuweigang163@163.com/支付宝
+
+
+## BT.cn  
+
+- account: 13725563032
+- password: bt+公司默认
+
+## aliyun 实例
+- 实例 terminal password: ecs+公司默认
+- bt panel
+  accout:wuweok
+  password: bt+公司默认
+
+
+
+
+##magicdata
+#database: magicdata password: magicdata+公司默认 
