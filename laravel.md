@@ -16,6 +16,9 @@
 3.3 seed
 php artisan db:seed  --class=SeventyCityHouseDataSeeder
 
+ php artisan db:seed --class="Database\Seeders\Indicator\SeventyCityIndicatorSeeder"
+ 双引号必须有， 类的命名空间必须正确
+
 
 4. API Resources
 Function:
